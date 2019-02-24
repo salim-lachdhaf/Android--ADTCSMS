@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- AdMob ad unit IDs -->
-    <string name="banner_home_footer">ca-app-pub-8380929747354083/6138153053</string>
-    <string name="interstitial_full_screen">ca-app-pub-8380929747354083/9091619452</string>
-    <string name="video_ad">ca-app-pub-8380929747354083/9091619452</string>
-    <string name="adMob_Id">ca-app-pub-8380929747354083~4661419854</string>
-</resources>
