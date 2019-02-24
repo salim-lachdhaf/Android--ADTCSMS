@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context="com.soft.salim.adtcsms.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name2"
+                android:textSize="50sp"
+                android:textColor="@color/TextColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name3"
+                android:textSize="50sp"
+                android:textColor="@color/intermediaire"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logoMean"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:paddingBottom="50dp"
+            android:textColor="@color/HintColor"/>
+
+    <Spinner
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:prompt="@string/Commande_prompt"
+        android:id="@+id/commande"
+        android:entries="@array/commande"
+        android:spinnerMode="dialog" />
+
+    <EditText
+        android:visibility="gone"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/param1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phonenumber"
+        android:background="@drawable/edittext"
+        android:padding="12dp"
+        android:textColor="@color/TextColor"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:maxLength="50"
+        android:gravity="center"
+        android:textColorHint="@color/HintColor"/>
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/msg"
+        android:textColor="@color/TextColor"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Messagebody"
+        android:inputType="" android:lines="3"
+        android:textColorHint="@color/HintColor"
+        android:gravity="center"
+        android:background="@drawable/edittext"
+        android:maxLength="500"
+        android:padding="12dp"/>
+
+    <EditText
+        android:visibility="gone"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/param2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phonenumber"
+        android:background="@drawable/edittext"
+        android:padding="12dp"
+        android:textColor="@color/TextColor"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:gravity="center"
+        android:maxLength="50"
+        android:textColorHint="@color/HintColor"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+    <EditText
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/securitycode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/securitycode"
+        android:background="@drawable/edittext"
+        android:padding="12dp"
+        android:textColor="@color/TextColor"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:gravity="center"
+        android:maxLength="50"
+        android:textColorHint="@color/HintColor"/>
+    <Button
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/send"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bouton"
+        android:text="@string/send"
+        android:textColor="@color/Background"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="ButtonStyle" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_home_footer">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#2196F3</color>
+
+    <!--Button theme-->
+    <color name="ThemeColeur">#fafafa</color>
+    <color name="intermediaire">#F44336</color>
+    <color name="Background">#eef1f5</color>
+    <color name="ButtonClickColor">#641dacca</color>
+    <color name="ButtonFocusedColor">#641dacca</color>
+    <color name="ButtonDefaultColor">#1dacca</color>
+
+    <!--EditText theme-->
+    <color name="TextColor">#424242</color>
+    <color name="HintColor">#757575</color>
+
+</resources>

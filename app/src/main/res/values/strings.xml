@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ADTC SMS</string>
+    <string name="app_name2">ADTC</string>
+    <string name="app_name3">SMS</string>
+
+    <string name="phonenumber">Phone Number</string>
+    <string name="send">Generate Command</string>
+    <string name="securitycode">App Visibility Code</string>
+    <string name="logoMean">Android Distance Tracking &amp; Control</string>
+    <string name="ErrorSending">SMS Sending Failed</string>
+
+    //paramatere
+    <string name="SmsResponse">ADTC New SMS Response</string>
+    <string name="Messagebody">Message Body</string>
+    <string name="AlarmErreur">Invalid duration (2 to 30 second)</string>
+    <string name="PinErreur">Invalid PIN Code (4 to 8 digits)</string>
+    <string name="CallErreur">Invalid Phone number</string>
+    <string name="CommandSendedSuccessfuly">Command Sent Successfully</string>
+    <string name="ActivePermission">Error :Please grant the permission to app to send SMS.</string>
+    //end parametre
+
+    <string name="InvalidNumber">Invalid Phone number</string>
+    <string name="InvalidCode">Invalid code</string>
+    <string name="InvalidCommand">Please select a command</string>
+
+    <string name="Commande_prompt">Select a Command</string>
+
+    <string-array name="commande">
+        <item>SMS Logs</item>
+        <item>Enable Tracking</item>
+        <item>Disable Tracking</item>
+        <item>Call Logs</item>
+        <item>Enable Wifi</item>
+        <item>Disable Wifi</item>
+        <item>Reset to Factory Mode</item>
+        <item>Tracking History</item>
+        <item>Delete Internal memory</item>
+        <item>Delete External memory</item>
+        <item>Hide Application</item>
+        <item>Show Application</item>
+        <item>Enable Call Recording</item>
+        <item>Disable Call Recording</item>
+        <item>Enable Geographic limitation</item>
+        <item>Disable Geographic limitation</item>
+        <item>Front Camera Capture</item>
+        <item>Back Camera Capture</item>
+        <item>Call Restrict</item>
+        <item>Front Video Record</item>
+        <item>Back Video Record</item>
+        <item>Capture Audio</item>
+        <item>Make Alarm</item>
+        <item>Lock Screen</item>
+        <item>Make Phone Call</item>
+        <item>Send SMS</item>
+        <item>Change PIN Code</item>
+    </string-array>
+    <string name="title_activity_tack_history">Tracking History</string>
+
+
+</resources>
