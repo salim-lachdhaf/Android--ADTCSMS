@@ -13,23 +13,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/holo">
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
 
         <activity
             android:name=".MainActivity"
             android:theme="@style/holo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/adMob_Id"/>
+            android:value="@string/adMob_Id" />
     </application>
 
 </manifest>

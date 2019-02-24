@@ -6,3 +6,8 @@
 .DS_Store
 /build
 /captures
+*private.xml
+/build
+*/*private.xml
+/*[Dd]ebug*/
+/*[Rr]elease*/

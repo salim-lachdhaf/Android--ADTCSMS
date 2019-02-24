@@ -1,1 +1,4 @@
 /build
+*/*private.xml
+[Dd]ebug*/
+[Rr]elease*/
